@@ -1,6 +1,14 @@
 # action.yml
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Sun-CI'
+description: 'Sun Asterisk Code Quality'
+inputs:
+  path:
+   description: 'Path running check phpcs'
+   required: true
+   default: 'app'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  args:
+      - ${{ inputs.path }}
+
