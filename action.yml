@@ -1,6 +1,8 @@
 # action.yml
 name: 'Sun-CI'
 description: 'Sun Asterisk Code Quality'
+icon: 'check-square'
+color: 'red'
 inputs:
   path:
    description: 'Path running check phpcs'
@@ -11,5 +13,3 @@ runs:
   image: 'Dockerfile'
   args:
       - ${{ inputs.path }}
-icon: 'check-square'
-color: 'red'
