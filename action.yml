@@ -11,4 +11,5 @@ runs:
   image: 'Dockerfile'
   args:
       - ${{ inputs.path }}
-
+icon: 'check-square'
+color: 'red'

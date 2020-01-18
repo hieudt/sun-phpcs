@@ -10,7 +10,7 @@ Path checking code convetion
 
 ## Example usage
 
-```
+```yml
 name: Code_Quality
 on: [push]
 
