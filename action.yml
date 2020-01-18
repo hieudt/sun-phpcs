@@ -1,8 +1,9 @@
 # action.yml
 name: 'Sun-CI'
 description: 'Sun Asterisk Code Quality'
-icon: 'check-square'
-color: 'red'
+branding:
+  icon: 'check-square'
+  color: 'red'
 inputs:
   path:
    description: 'Path running check phpcs'
