@@ -14,6 +14,6 @@ else
  hieudt="$@"
 fi
 
-phpcs --standard=Framgia "$hieudt"
+phpcs --standard=Framgia $hieudt
 
 
